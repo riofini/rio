@@ -1,0 +1,432 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Georgia', sans-serif;
+  scroll-behavior: smooth;
+  overflow: visible;
+    /*animation: slide 10s infinite;*/
+}
+header {
+    width: 100%;
+    height: 5%;
+    color: white;
+    background: black;
+    position: fixed;
+    z-index: 1;
+}
+.header-text{
+    font-family: 'Century Gothic', monospace;
+    font-size: 20px;
+    font-display: block;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+.side {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.side a{
+    color: white;
+    border: 3px solid black;
+    font-size: 22px;
+    display: block;
+    width: 130px;
+    padding: 12px;
+    text-decoration: none;
+    margin: 8px 0;
+    color: black;
+    margin-left: -102px;
+    transition: 0.6s all;
+}
+.side, a:hover{
+    margin-left: 0;
+}
+section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: table;
+    max-width: none;
+}
+#sec1 {
+    background-image: url(image5.png);
+    background-size: cover;
+}
+#sec2 {
+    background-image: url(image6.png);
+    background-size: cover;
+    
+}
+#sec3 {
+    background-image: url(image8.png);
+    background-size: cover;
+    
+}
+#sec4 {
+    background-image: url(image9.png);
+    background-size: cover;
+    
+}
+#sec5 {
+    background-image: url(image10.png);
+    background-size: cover;
+    
+}
+#sec6 {
+    background-image: url(image11.png);
+    background-size: cover;
+}
+#sec7 {
+    background-image: url(image12.png);
+    background-size: cover;
+}
+#sec8 {
+    background-image: url(image13.png);
+    background-size: cover;
+    
+}
+#sec9 {
+    background-image: url(image14.png);
+    background-size: cover;
+    
+}
+#sec10 {
+    background-image: url(image15.png);
+    background-size: cover;
+    
+}
+#sec11 {
+    background-image: url(image16.png);
+    background-size: cover;
+}
+#sec12 {
+    background-image: url(image17.png);
+    background-size: cover;
+}
+.box{
+  width: 450px;
+  height: 300px;
+  border: 4px solid black;
+  padding: 50px;
+  text-align: right;
+  margin-top: 10%;
+  margin-left: 50%;
+  color: black;
+  font-family: 'Georgia',sans-serif;
+    
+}
+.alma{
+    font-size: 9px;
+}
+.box p {
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+}
+.box2 {
+    width: 600px;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 40px;
+    color: white;
+    margin: 90px auto;
+    position: relative;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid black;
+    background: rgb(0, 0, 0, 0.4);
+}
+.box2 h2 {
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    font-size: 30px;
+}
+.box2 p {
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box2-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxUC {
+    width: 500px;
+    height: 480px;
+    overflow-y: scroll;
+    padding: 40px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    margin-left: 170px;
+    margin-right: 80px;
+    position: relative;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid black;
+}
+.boxUC2 {
+    width: 500px;
+    height: 480px;
+    overflow-y: scroll;
+    padding: 40px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    margin-left: 700px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid black;
+}
+.boxUC h2 {
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    font-size: 30px;
+}
+.boxUC p {
+    color: black;
+    font-family: 'Century Gothic', sans-serif;
+}
+.boxUC-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 250px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxUC2 h2 {
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    font-size: 30px;
+}
+.boxUC2 p {
+    color: black;
+    font-family: 'Century Gothic', sans-serif;
+}
+.boxUC2-img{
+ border-radius: 50%;
+  width: 200px;
+  height: 200px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box3 {
+width: 350px;
+  height: 200px;
+  border: 4px solid black;
+  padding: 50px;
+  text-align: right;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 50%;
+  color: black;
+  font-family: 'Georgia',sans-serif;
+}
+.box3 h1{
+    font-size: 50px;
+    padding-top: -5px;
+}
+ .box3 p{
+    width: 170px;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-left: 70%;
+    margin-bottom: 50%;
+    font-family: 'Century Gothic';
+    font-size: 30px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.box4 {
+  width: 330px;
+  height: 300px;
+  border: 4px solid black;
+  padding: 40px;
+  text-align: right;
+  margin-top: 10%;
+  margin-left: 50%;
+  color: black;
+  font-family: 'Georgia',sans-serif;
+}
+.box4 h1 {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 30px;
+}
+.box4 h2{
+    font-family: 'Century Gothic';
+    margin-top: -20px;
+    font-size: 12px;
+    font-style: italic;
+}
+.boxUC4 {
+  width: 800px;
+  height: 200px;
+  border: 4px solid black;
+    overflow-y: scroll;
+  padding: 40px;
+  text-align: right;
+  margin-top: 25%;
+  margin-left: 16%;
+  margin-bottom: 10%;
+  color: black;
+  font-family: 'Georgia',sans-serif;
+}
+.boxUC4 h1 {
+    margin-top: -2%;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.boxUC4 h2{
+    font-family: 'Century Gothic';
+    margin-top: -20px;
+    font-size: 12px;
+    text-align:justify;
+}
+.box5 {
+    width: 600px;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 40px;
+    color: white;
+    margin: 90px auto;
+    position: relative;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid black;
+    background: rgb(0, 0, 0, 0.4);
+}
+.box5 h1 {
+    font-family: 'Century Gothic', sans-serif;
+}
+.box5 h2 {
+    color: white;
+    margin-top: -5px;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 10px;
+}
+.box5A {
+    width: 900px;
+    height: 590px;
+    padding: 40px;
+    color: white;
+    margin-top: -1%;
+    margin-bottom: -1%;
+    margin-left: 13%;
+    margin-right: 15%;
+    font-size: 15px;
+    position:relative;
+    text-align: justify;
+    border: 2px solid white;
+}
+.box5A h1 {
+    font-family: 'Century Gothic', sans-serif;
+}
+.box5A h2 {
+    color: white;
+    margin-top: -5px;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 10px;
+}
+.box4,ul,li {
+    display: inline-block;
+}
+.box5 p {
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box5-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box5A2 {
+    width: 900px;
+    height: 590px;
+    padding: 20px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    margin-left: 12%;
+    margin-right: 10%;
+    font-size: 15px;
+    position:relative;
+    text-align: center;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 4px;
+}
+footer {
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+    color: white;
+    background: black;
+   }
+footer h1 {
+    font-family: monospace;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer h2 {
+    font-family: monospace;
+    font-size: 10px;
+    text-align: center;
+}
